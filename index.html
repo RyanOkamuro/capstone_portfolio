@@ -11,18 +11,18 @@
   </head>
   <body>
     <nav role="navigation" class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a class="active" href="">Home</a>
+      <a href="#projects" id="project-link">Projects</a>
+      <a href="#contact-me" id="contact-link">Contact</a>
     </nav>
     <main role="main">
-      <header role="banner">
+      <header role="banner" class="testing">
         <h1>Ryan Okamuro</h1>
         <h2>Front-End Web Developer</h2>
       </header>
       <section role="region" id="about">
         <img src="./images/me.jpg" alt="profile-pic" class="profile-pic">
-        <p>For the past 6 years,I have been living abroad in Asia and now I am back in America to follow my passion in web development.</p>
+        <p>For the past 6 years, I have been living abroad in Asia and now I am back in America to follow my passion in web development.</p>
         <p>Back in the day, I used to tinker websites using Dreamweaver; but now, I can build from scratch.</p>
         <p>When I'm not coding, I'm reading Engadget about the latest news in tech, traveling to understand the world, or out meeting new people!</p>
       </section>
@@ -70,10 +70,12 @@
           </div>
         <hr>
       </section>
-      <section role="region" id="projects" aria-live="assertive" hidden></section>
-      <section role="region" id="contact" aria-live="assertive" hidden></section>
+      <section role="region" id="landing" aria-live="assertive" hidden></section>
+      <section role="region" id="projects-page" aria-live="assertive" hidden></section>
+      <section role="region" id="contact-page" aria-live="assertive" hidden></section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="routie.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
