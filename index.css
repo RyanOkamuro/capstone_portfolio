@@ -2,14 +2,19 @@
     box-sizing: border-box;
   }
 
-  h4, h5, h6 {
+  html, body {
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h4, h5, h6, body {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-}
-
+    }
 
   .topnav {
       background-color: #333;
@@ -42,18 +47,42 @@
   h1 {
       font-size: 50px; 
       margin-top: 65px;
+      font-weight: bold;
   }
 
   h2 {
       font-size: 35px;
+      font-weight: bold;
+  }
+
+  #about {
+      display: block;
+  }
+
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+      padding-left: 30px;
+      padding-right: 30px;
   }
 
   h3 {
       font-size: 30px;
+      font-weight: bold;
   }
   
   h4, h5, h6 {
-      font-size: 20px
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-weight: bold;
   }
 
   hr {
@@ -90,15 +119,7 @@
     padding-right: 1.04166666%;
   }
 
-  .col-4 {
-    width: 33.33%;
-  }
-
-  .col-8 {
-      width: 66.67%;
-  }
-
-  .front-end {
+  .skill-img {
       height: 150px;
       width: 150px;
   }
@@ -106,6 +127,34 @@
   .split {
     width: 50%;
     float: left;
+    text-align: right;
+  }
+
+  ul {
+      margin-top: 32px;
+  }
+
+  .skill-list {
+    text-align: left;
+  }
+
+  .front-end {
+    max-width: 130px;
+  }
+
+  .col-4,.col-8 {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 950px) {
+    .col-4 {
+        width: 33.33%;
+    }
+    p {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
   }
 
   

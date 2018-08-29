@@ -21,16 +21,10 @@
         <h2>Front-End Web Developer</h2>
       </header>
       <section role="region" id="about">
-        <div class="row">
-          <div class="col-4">
-            <img src="https://tse4.mm.bing.net/th?id=OIP.W5qccVzaH-Xkco_Pu-LjFgHaEK&pid=15.1&P=0&w=297&h=168" alt="profile-pic" class="profile-pic">
-          </div>
-          <div class="col-8">
-            <p>For the past 6 years,I have been living abroad in Asia and now I am back in America to follow my passion in web development.</p>
-            <p>Back in the day, I used to tinker websites using Dreamweaver; but now, I can build from scratch using React, Node, Javascript, jQuery, HTML5, and CSS3!</p>
-            <p>When I'm not coding, I'm reading Engadget about the latest news in tech, traveling to understand the world, or out meeting new people!</p>
-          </div>
-        </div>
+        <img src="./images/me.jpg" alt="profile-pic" class="profile-pic">
+        <p>For the past 6 years,I have been living abroad in Asia and now I am back in America to follow my passion in web development.</p>
+        <p>Back in the day, I used to tinker websites using Dreamweaver; but now, I can build from scratch.</p>
+        <p>When I'm not coding, I'm reading Engadget about the latest news in tech, traveling to understand the world, or out meeting new people!</p>
       </section>
       <section role="region" id="skills">
         <h3>Skills</h3>
@@ -38,7 +32,9 @@
         <div class="row">
           <div class="col-4">
             <h4>Front End</h4>
-            <img src="./images/front-end.png" class="split front-end" alt="front-end">
+            <div class="split front">
+                <img src="./images/front-end.png" class="skill-img" alt="front-end">
+            </div>
             <ul class="split skill-list">
               <li>Javascript</li>
               <li>React/Redux</li>
@@ -48,7 +44,9 @@
           </div>
           <div class="col-4">
               <h5>Back End</h5>
-              <img src="./images/back-end.png" class="split front-end" alt="front-end">
+                <div class="split back">
+                    <img src="./images/back-end.png" class="skill-img" alt="front-end">
+                </div>
               <ul class="split skill-list">
                 <li>Node.js</li>
                 <li>Express</li>
@@ -59,18 +57,23 @@
           </div>
           <div class="col-4">
               <h6>Tools</h6>
-              <img src="./images/tools.png" class="split front-end" alt="front-end">
+                <div class="split tools">
+                    <img src="./images/tools.png" class="skill-img" alt="tools">
+                </div>
               <ul class="split skill-list">
                 <li>Git</li>
                 <li>mLab</li>
                 <li>Heroku</li>
-                <li>TravisCI</li>
+                <li>Travis CI</li>
               </ul>
             </div>
           </div>
         <hr>
       </section>
+      <section role="region" id="projects" aria-live="assertive" hidden></section>
+      <section role="region" id="contact" aria-live="assertive" hidden></section>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
