@@ -1,5 +1,18 @@
 
-//Show projects
+//Highlight active nav link
+let navContainer = document.getElementById('topnav');
+//Get all nav links with id="navLink" inside the container
+let navLinks = navContainer.getElementsByClassName('navLink');
+//Loop through nav links and add the active class to the current/clicked link
+for(let i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', function() {
+        let current = document.getElementsByClassName('active');
+        current[0].className = current[0].className.replace(' active', '');
+        this.className += ' active';
+    });
+}
+
+//Projects page
 function showProjects() {
     let allProjects = `
     <section role='region' class='travel-BankEx'>
@@ -40,7 +53,7 @@ function showProjects() {
             </div>
             <div class='col-8'>
                 <h5 class='project-title'>Deal Hacker</h5>
-                <p class='capstone-languages'>React · Node · Express · HTML5 · CSS3</p>
+                <p class='capstone-languages'>React · Node.js · Express · HTML5 · CSS3</p>
                 <p class='project-description'>Ready to purchase a new laptop but don't know if you are getting the best deal online?</p>
                 <p class='project-description'>Users post the best sale deals in one central place and leave comments whether they believe this is the best sale.</p>
                 <div class='view-project-buttons'>
@@ -63,10 +76,23 @@ function showProjects() {
     $('#projects-page').show();
 }
 
+//Contact me page
 function showContactMe() {
     let contact = `
     <section role='region' class='contact-ryan'>
-        <p>Great</p>
+        <h2>Contact Me</h2>
+        <p class='contact-me-info'>Feel free to contact me. I look forward to bringing your ideas to life!</p>
+        <div class='contact-info-center'>
+            <a href='mailto:RyanOkamuro@gmail.com'>
+                <img src='./images/email-logo.png' alt='email' class='contact-connect-me-email'>
+            </a>
+            <a href='https://github.com/RyanOkamuro'>
+                <img src='./images/github-logo.png' alt='github' class='contact-connect-me'>
+            </a>
+            <a href='https://www.linkedin.com/in/RyanOkamuro/'>
+                <img src='./images/linkedin-logo.png' alt='linkedin' class='contact-connect-me'>
+            </a>
+        </div>
     </section>
     `;
     $('#about').hide();
@@ -135,8 +161,6 @@ function DealHackerDemoView() {
         window.location='https://nameless-reef-48795.herokuapp.com';
     });
 }
-
-
 
 function handleCreateApp() {
     listProject();

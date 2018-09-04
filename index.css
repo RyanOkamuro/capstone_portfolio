@@ -6,6 +6,7 @@
     color: #404040;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    background-color: #ffffff;
   }
 
   h4, h5, h6, body {
@@ -16,12 +17,12 @@
 	vertical-align: baseline;
     }
 
-  .topnav {
+  #topnav {
       background-color: #333;
       overflow: hidden;
   }
   
-  .topnav a {
+  #topnav a {
       float: left;
       color: #f2f2f2;
       text-align: center;
@@ -30,12 +31,12 @@
       font-size: 17px;
   }
   
-  .topnav a:hover {
+  #topnav a:hover {
       background-color: #2196F3;
       color: white;
   }
   
-  .topnav a.active {
+  .active {
       background-color: #1976D2;
       color: white;
   }
@@ -83,6 +84,10 @@
       margin-top: 30px;
       margin-bottom: 15px;
       font-weight: bold;
+  }
+
+  .skills {
+    margin-top: 60px;
   }
 
   hr {
@@ -184,6 +189,38 @@
       text-align: center;
   }
 
+  .contact-me-info {
+      text-align: center;
+      margin-top: 70px;
+      margin-bottom: 50px;
+  }
+
+  .contact-info-center {
+      display: block;
+      text-align: center;
+  }
+
+  .contact-connect-me {
+      height: 50px;
+      width: 50px;
+      display: inline-block;
+      margin-right: 5px;
+      margin-left: 5px;
+  }
+
+  .contact-connect-me-email {
+    height: 50px;
+    width: 60px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  a {
+    border: 0;
+    text-decoration: none;
+  }
+
   @media only screen and (min-width: 320px) {
     .travel-BankEx-img, .wine-select-img, .deal-hacker-img {
         width: 270px;
@@ -231,8 +268,6 @@
         width: 700px;
     }
   }
-
-
 
   @media only screen and (min-width: 950px) {
     .skill-img {
