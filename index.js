@@ -19,7 +19,7 @@ function showProjects() {
         <h2>Capstone Projects</h2>
         <div class='row'>
             <div class='col-4-project-image-container'>
-                <img src='./images/Travel_BankEx_Landing_Page.jpg' alt='travel-BankEx' class='travel-BankEx-img'>
+                <img src='./images/Travel_BankEx_Landing_Page.JPG' alt='travel-BankEx' class='travel-BankEx-img'>
             </div>
             <div class='col-8'>
                 <h3 class='project-title'>Travel BankEx</h3>
@@ -34,7 +34,7 @@ function showProjects() {
         </div>
         <div class='row'>
             <div class='col-4-project-image-container'>
-                <img src='./images/Wine_Select_Landing_Page.jpg' alt='wine-select' class='wine-select-img'>
+                <img src='./images/Wine_Select_Landing_Page.JPG' alt='wine-select' class='wine-select-img'>
             </div>
             <div class='col-8'>
                 <h4 class='project-title'>Wine Select</h4>
@@ -49,7 +49,7 @@ function showProjects() {
         </div>
         <div class='row'>
             <div class='col-4-project-image-container'>
-                <img src='./images/Deal_Hacker_Landing_Page.jpg' alt='deal-hacker' class='deal-hacker-img'>
+                <img src='./images/Deal_Hacker_Landing_Page.JPG' alt='deal-hacker' class='deal-hacker-img'>
             </div>
             <div class='col-8'>
                 <h5 class='project-title'>Deal Hacker</h5>
