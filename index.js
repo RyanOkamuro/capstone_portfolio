@@ -1,17 +1,4 @@
 
-//Highlight active nav link
-let navContainer = document.getElementById('topnav');
-//Get all nav links with id="navLink" inside the container
-let navLinks = navContainer.getElementsByClassName('navLink');
-//Loop through nav links and add the active class to the current/clicked link
-for(let i = 0; i < navLinks.length; i++) {
-    navLinks[i].addEventListener('click', function() {
-        let current = document.getElementsByClassName('active');
-        current[0].className = current[0].className.replace(' active', '');
-        this.className += ' active';
-    });
-}
-
 //Projects page
 function showProjects() {
     let allProjects = `
@@ -182,14 +169,22 @@ function handleCreateApp() {
             $('#about').show();
             $('#skills').show();
             $('#landing').show();
-    })
+            let current = document.getElementsByClassName('active');
+            current[0].classList.remove('active')
+            document.querySelector('.home').classList.add('active');
+    });
     routie('projects', function() {
         showProjects();
+        let current = document.getElementsByClassName('active');
+        current[0].classList.remove('active')
+        document.querySelector('.projects').classList.add('active');
     });  
     routie('contact-me', function() {
         showContactMe();
+        let current = document.getElementsByClassName('active');
+        current[0].classList.remove('active')
+        document.querySelector('.contact').classList.add('active');
     });  
-
 }
 
 $(handleCreateApp);
