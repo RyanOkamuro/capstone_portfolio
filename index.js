@@ -145,7 +145,7 @@ function DealHackerSeverCode() {
 
 function DealHackerDemoView() {
     $('#projects-page').on('click', '.js-view-demo-DH', event => {
-        window.location='https://nameless-reef-48795.herokuapp.com';
+        window.location='https://deal-hacker.herokuapp.com/';
     });
 }
 
