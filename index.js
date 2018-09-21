@@ -68,7 +68,7 @@ function showContactMe() {
     let contact = `
     <section role='region' class='contact-ryan'>
         <h2>Contact Me</h2>
-        <p class='contact-me-info'>Feel free to contact me. I look forward to bringing your ideas to life!</p>
+        <p class='contact-me-info'>Feel free to contact me. I look forward to utilzing my project management and front-end skills to move your company foward!</p>
         <div class='contact-info-center'>
             <a href='mailto:RyanOkamuro@gmail.com'>
                 <img src='./images/email-logo.png' alt='email' class='contact-connect-me-email'>
