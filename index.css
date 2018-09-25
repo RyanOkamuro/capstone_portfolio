@@ -95,7 +95,7 @@
   }
 
   .bottom-line {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   
   .row {
@@ -166,10 +166,11 @@
     text-align: center;
   }
 
-  button[type="button"] {
+  .button-links {
+    display: inline-block;
     width: 70px;
     height: 30px;
-    padding: 2px;
+    padding: 5px;
     background-color: #1976D2;
     color: #F8F8FF;
     border: 0.5px;
@@ -179,8 +180,8 @@
     cursor: pointer;
   }
 
-  button[type="button"]:hover,
-  button[type="button"]:focus {
+  .button-links:hover,
+  .button-links:focus {
     background-color: #2196F3;
     -webkit-transition: background 0.1s;
     -moz-transition: background 0.1s;

@@ -14,8 +14,8 @@ function showProjects() {
                 <p class='project-description'>Ever find yourself traveling abroad and switching between apps to find the exchange rate & a bank?</p>
                 <p class='project-description'>Travel BankEx solves this shortcoming by utilizing Google Maps and The Free Currency Converter API to display both on one page.</p>
                 <div class='view-project-buttons'>
-                    <button role='button' type='button' class='js-view-demo-TBE'>App</button>
-                    <button role='button' type='button' class='js-client-code-TBE'>Code</button>
+                    <a class='button-links' href='https://ryanokamuro.github.io/Travel-BankEx'>App</a>
+                    <a class='button-links' href='https://github.com/RyanOkamuro/Travel-BankEx'>Code</a>
                 </div>
             </div>
         </div>
@@ -29,8 +29,8 @@ function showProjects() {
                 <p class='project-description'>You don't need to be a wine connoisseur to pick the perfect bottle of wine for dinner.</p> 
                 <p class='project-description'>Select a bottle based on a database collection of red/white wine and customer reviews.</p>
                 <div class='view-project-buttons'>
-                    <button role='button' type='button' class='js-view-demo-WS'>App</button>
-                    <button role='button' type='button' class='js-server-code-WS'>Code</button>
+                    <a class='button-links' href='https://wine-select.herokuapp.com'>App</a>
+                    <a class='button-links' href='https://github.com/RyanOkamuro/wine_select'>Code</a>
                 </div>
             </div>
         </div>
@@ -44,9 +44,9 @@ function showProjects() {
                 <p class='project-description'>Ready to purchase a new laptop but don't know if you are getting the best deal online?</p>
                 <p class='project-description'>Users post the best sale deals in one central place and leave comments whether they believe this is the best sale.</p>
                 <div class='view-project-buttons'>
-                    <button role='button' type='button' class='js-view-demo-DH'>App</button>
-                    <button role='button' type='button' class='js-client-code-DH'>Client</button>
-                    <button role='button' type='button' class='js-server-code-DH'>Server</button>
+                    <a class='button-links' href='https://deal-hacker.herokuapp.com/'>App</a>
+                    <a class='button-links' href='https://github.com/RyanOkamuro/deal-hacker'>Client</a>
+                    <a class='button-links' href='https://github.com/RyanOkamuro/deal-hacker-api'>Server</a>
                 </div>
             </div>
         </div>
@@ -107,58 +107,9 @@ function listContactInfo() {
     });
 }
 
-function TravelBankExClientCode() {
-    $('#projects-page').on('click', '.js-client-code-TBE', event => {
-        window.location='https://github.com/RyanOkamuro/Travel-BankEx';
-    });
-}
-
-function TravelBankExDemoView() {
-    $('#projects-page').on('click', '.js-view-demo-TBE', event => {
-        window.location='https://ryanokamuro.github.io/Travel-BankEx';
-    });
-}
-
-function WineSelectSeverCode() {
-    $('#projects-page').on('click', '.js-server-code-WS', event => {
-        window.location='https://github.com/RyanOkamuro/wine_select';
-    });
-}
-
-function WineSelectDemoView() {
-    $('#projects-page').on('click', '.js-view-demo-WS', event => {
-        window.location='https://wine-select.herokuapp.com';
-    });
-}
-
-function DealHackerClientCode() {
-    $('#projects-page').on('click', '.js-client-code-DH', event => {
-        window.location='https://github.com/RyanOkamuro/deal-hacker';
-    });
-}
-
-function DealHackerSeverCode() {
-    $('#projects-page').on('click', '.js-server-code-DH', event => {
-        window.location='https://github.com/RyanOkamuro/deal-hacker-api';
-    });
-}
-
-function DealHackerDemoView() {
-    $('#projects-page').on('click', '.js-view-demo-DH', event => {
-        window.location='https://deal-hacker.herokuapp.com/';
-    });
-}
-
 function handleCreateApp() {
     listProject();
     listContactInfo();
-    TravelBankExClientCode();
-    TravelBankExDemoView();
-    WineSelectSeverCode();
-    WineSelectDemoView();
-    DealHackerClientCode();
-    DealHackerSeverCode();
-    DealHackerDemoView();
     routie('', function() {
         $('#projects-page').hide();
         $('#contact-page').hide();
