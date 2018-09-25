@@ -18,46 +18,46 @@
     }
 
   #topnav {
-      background-color: #333;
-      overflow: hidden;
+    background-color: #333;
+    overflow: hidden;
   }
   
   #topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
   
   #topnav a:hover {
-      background-color: #2196F3;
-      color: white;
+    background-color: #2196F3;
+    color: white;
   }
   
   .active {
-      background-color: #1976D2;
-      color: white;
+    background-color: #1976D2;
+    color: white;
   }
 
   h1, h2, h3, h4, h5, h6 {
-      text-align: center;
+    text-align: center;
   }
 
   h1 {
-      font-size: 50px; 
-      margin-top: 65px;
-      font-weight: bold;
+    font-size: 50px; 
+    margin-top: 65px;
+    font-weight: bold;
   }
 
   h2 {
-      font-size: 35px;
-      font-weight: bold;
+    font-size: 35px;
+    font-weight: bold;
   }
 
   #about {
-      display: block;
+    display: block;
   }
 
   .profile-pic {
@@ -70,20 +70,20 @@
   }
 
   .about-me {
-      padding-left: 30px;
-      padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   h3 {
-      font-size: 30px;
-      font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
   }
   
   h4, h5, h6 {
-      font-size: 20px;
-      margin-top: 30px;
-      margin-bottom: 15px;
-      font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
   }
 
   .skills {
@@ -91,11 +91,11 @@
   }
 
   hr {
-      width: 80%;
+    width: 80%;
   }
 
   .bottom-line {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
   
   .row {
@@ -116,8 +116,8 @@
   }
 
   .skill-img {
-      height: 150px;
-      width: 150px;
+    height: 150px;
+    width: 150px;
   }
 
   .split {
@@ -127,7 +127,7 @@
   }
 
   ul {
-      margin-top: 32px;
+    margin-top: 32px;
   }
 
   .skill-list {
@@ -154,62 +154,62 @@
   }
 
   .col-8 {
-      height: 300px;
+    height: 300px;
   }
 
   .project-title {
-      font-size: 25px;
-      font-weight: bold;
+    font-size: 25px;
+    font-weight: bold;
   }
 
   .capstone-languages {
-      text-align: center;
+    text-align: center;
   }
 
   button[type="button"] {
-      width: 70px;
-      height: 30px;
-      padding: 2px;
-      background-color: #1976D2;
-      color: #F8F8FF;
-      border: 0.5px;
-      border-radius: 3px;
-      text-align: center;
-      margin: 5px 5px 2px 5px;
-      cursor: pointer;
+    width: 70px;
+    height: 30px;
+    padding: 2px;
+    background-color: #1976D2;
+    color: #F8F8FF;
+    border: 0.5px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px 5px 2px 5px;
+    cursor: pointer;
   }
 
   button[type="button"]:hover,
   button[type="button"]:focus {
-      background-color: #2196F3;
-      -webkit-transition: background 0.1s;
-      -moz-transition: background 0.1s;
-      -o-transition: background 0.1s;
-      transition: background 0.1s;
-      outline: none;
+    background-color: #2196F3;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+    outline: none;
   }
 
   .view-project-buttons {
-      text-align: center;
+    text-align: center;
   }
 
   .contact-me-info {
-      text-align: center;
-      margin-top: 70px;
-      margin-bottom: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
   }
 
   .contact-info-center {
-      display: block;
-      text-align: center;
+    display: block;
+    text-align: center;
   }
 
   .contact-connect-me {
-      height: 50px;
-      width: 50px;
-      display: inline-block;
-      margin-right: 5px;
-      margin-left: 5px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
   .contact-connect-me-email {
