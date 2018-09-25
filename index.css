@@ -93,6 +93,10 @@
   hr {
       width: 80%;
   }
+
+  .bottom-line {
+      margin-bottom: 20px;
+  }
   
   .row {
     max-width: 1000px;
