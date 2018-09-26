@@ -40,7 +40,7 @@ function showProjects() {
             </div>
             <div class='col-8'>
                 <h5 class='project-title'>Deal Hacker</h5>
-                <p class='capstone-languages'>React · Node.js · Express · HTML5 · CSS3</p>
+                <p class='capstone-languages'>React · Node.js · HTML5 · CSS3</p>
                 <p class='project-description'>Ready to purchase a new laptop but don't know if you are getting the best deal online?</p>
                 <p class='project-description'>Users post the best sale deals in one central place and leave comments whether they believe this is the best sale.</p>
                 <div class='view-project-buttons'>
